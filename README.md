@@ -12,7 +12,7 @@ To generate executable jar
 
 To improve on
 1. Make it a gradle project so that it does all build activities with a regular build (no dependence on enviroment or chance of human error).
-2. externalize properties.
-3. add unit tests
+2. Externalize properties.
+3. Add unit tests.
 4. Make it a gradle CI build so every change saved will run the unit test.
 5. Upgrade to latest gradle project for performance features.
