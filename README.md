@@ -11,7 +11,8 @@ To generate executable jar
 5. java -jar PhilipsSpaceRover.jar # to run from cli; alternatively we can double click the file.
 
 To improve on
-1. Make it a gradle project so that it does all build activities with a regular build (no dependence on enviroment or chance of human error).
+1. Add a .ignore file so that classes and jar files dont get pushed.
+2. Make it a gradle project so that it does all build activities with a regular build (no dependence on enviroment or chance of human error).
 2. Externalize properties.
 3. Add unit tests.
 4. Make it a gradle CI build so every change saved will run the unit test.
