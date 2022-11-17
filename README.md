@@ -17,3 +17,5 @@ To improve on
 3. Add unit tests.
 4. Make it a gradle CI build so every change saved will run the unit test.
 5. Upgrade to latest gradle project for performance features.
+
+Important : Use https://github.blog/2022-11-15-the-journey-of-your-work-has-never-been-clearer/ for tracking tasks!
