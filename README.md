@@ -19,3 +19,23 @@ To improve on
 5. Upgrade to latest gradle project for performance features.
 
 Important : Use https://github.blog/2022-11-15-the-journey-of-your-work-has-never-been-clearer/ for tracking tasks!
+
+Steps to create gradle project:
+1. philip@philip-Lenovo-B50-70:~/workspace/repositories/git/github/FirstGame/PhilipsSpaceRover$ ~/gradlew init
+2. Select type of project to generate: 2 (Application)
+3. Select implementation language: : 3 Java
+4. Split functionality across multiple subprojects?: 1. no
+5. Generate build using new APIs and behavior: no
+6. Select test framework: 4: JUnit Jupiter
+7. Project name (default: PhilipsSpaceRover): collision
+8. Source package (default: collision):
+9.> Task :init
+Get more help with your project: https://docs.gradle.org/7.5.1/samples/sample_building_java_applications.html
+10. To take a build:
+  a)  ./gradlew run
+  b) to do a continous build for every change (useful!) ./gradlew -t  run
+  c) to make into jar file : ./gradlew clean jar
+  
+  pending : current jar does not run on double clicking.
+
+
